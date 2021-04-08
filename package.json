@@ -1,0 +1,26 @@
+{
+  "name": "@labor-digital/ssl-certs",
+  "version": "1.0.0",
+  "description": "Our SSL dev Root CA and ssl certificates for our docker images and other projects",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labor-digital/ssl-certs.git"
+  },
+  "author": {
+    "name": "LABOR.digital",
+    "email": "info@labor.tools",
+    "url": "https://www.labor.digital"
+  },
+  "contributors": [
+    {
+      "name": "Martin Neundorfer",
+      "email": "code@neunerlei.eu",
+      "url": "https://www.neunerlei.eu"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/labor-digital/ssl-certs/issues"
+  },
+  "homepage": "https://github.com/labor-digital/ssl-certs#readme"
+}
