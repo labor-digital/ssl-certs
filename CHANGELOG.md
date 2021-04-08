@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/labor-digital/ssl-certs/compare/v1.1.0...v1.1.1) (2021-04-08)
+
+
+### Bug Fixes
+
+* add .npmignore file ([3b646d4](https://github.com/labor-digital/ssl-certs/commit/3b646d4e5abc30fcf17afefaf40a4d84eb1451a5))
+* add LICENSE file ([3e7a67d](https://github.com/labor-digital/ssl-certs/commit/3e7a67d944aa5c9f9159b9d761008f44135c0739))
+
 ## 1.1.0 (2021-04-08)
 
 
