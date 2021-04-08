@@ -25,6 +25,11 @@ The simplest is to make Firefox use the Windows trusted Root CAs by going to abo
 
 The other way is to import the certificate by going to about:preferences#privacy > Certificats > Import > RootCA.pem > Confirm for websites.
 
+## npm
+You can simply require the latest version of this repository through npm:
+
+```npm install @labor-digital/ssl-certs```
+
 ## Where is the LaborRootCA.key?
 We store that in our private vault, somewhere at the north-pole, so nobody can do funny stuff with it :) 
 **Hint: LABOR_ADMIN_SHARE/SSL**
