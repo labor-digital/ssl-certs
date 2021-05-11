@@ -11,14 +11,14 @@ Using a single root ca for all our dev needs it is possible to add the ca as "tr
 If you simply want to add the root ca to your store, you can use this guide.
 You can find the file you want to add under /rootca
 
-###Windows 10: Chrome, IE11 & Edge
+### Windows 10: Chrome, IE11 & Edge
 Windows 10 recognizes .crt files, so you can right-click on RootCA.crt > Install to open the import dialog.
 
 Make sure to select "Trusted Root Certification Authorities" and confirm.
 
 You should now get a green lock in Chrome, IE11 and Edge.
 
-###Windows 10: Firefox
+### Windows 10: Firefox
 There are two ways to get the CA trusted in Firefox.
 
 The simplest is to make Firefox use the Windows trusted Root CAs by going to about:config, and setting security.enterprise_roots.enabled to true.
