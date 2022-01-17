@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/labor-digital/ssl-certs/compare/v1.1.2...v1.2.0) (2022-01-17)
+
+
+### Features
+
+* add certificate for localhost ([7a8ec02](https://github.com/labor-digital/ssl-certs/commit/7a8ec02a3174047f63b0973a2a845e7c53b4f37b))
+
 ### [1.1.2](https://github.com/labor-digital/ssl-certs/compare/v1.1.1...v1.1.2) (2021-05-11)
 
 ### [1.1.1](https://github.com/labor-digital/ssl-certs/compare/v1.1.0...v1.1.1) (2021-04-08)

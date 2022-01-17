@@ -1,6 +1,6 @@
 {
   "name": "@labor-digital/ssl-certs",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Our SSL dev Root CA and ssl certificates for our docker images and other projects",
   "repository": {
     "type": "git",
