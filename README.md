@@ -37,7 +37,7 @@ We store that in our private vault, somewhere at the north-pole, so nobody can d
 ## How to make a new cert
 Basically follow [this guide](https://gist.github.com/cecilemuller/9492b848eb8fe46d462abeb26656c4f8).
 
-The codes look like this:
+The codes looks like this:
 ```
 openssl req -x509 -nodes -new -sha256 -days 18250 -newkey rsa:4096 -keyout LaborRootCA.key -out LaborRootCA.pem -subj "/C=DE/CN=LABOR-digital-RootCA"
 openssl x509 -outform pem -in LaborRootCA.pem -out LaborRootCA.crt
@@ -59,4 +59,23 @@ Generate the cert:
 ```
 openssl req -new -nodes -newkey rsa:4096 -keyout localmachine.space.key -out localmachine.space.csr -subj "/C=DE/ST=RLP/L=Mainz/O=LABOR-digital/CN=localmachine.space"
 openssl x509 -req -sha256 -days 18250 -in localmachine.space.csr -CA LaborRootCA.pem -CAkey LaborRootCA.key -CAcreateserial -extfile domains.ext -out localmachine.space.crt
+```
+
+### localhost
+domains.ext:
+```
+authorityKeyIdentifier=keyid,issuer
+basicConstraints=CA:FALSE
+keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost
+DNS.2 = *.localhost
+IP.1 = 127.0.0.1
+```
+
+Generate the cert:
+```
+openssl req -new -nodes -newkey rsa:4096 -keyout localhost.key -out localhost.csr -subj "/C=DE/ST=RLP/L=Mainz/O=LABOR-digital/CN=localhost"
+openssl x509 -req -sha256 -days 18250 -in localhost.csr -CA LaborRootCA.pem -CAkey LaborRootCA.key -CAcreateserial -extfile domains.ext -out localhost.crt
 ```
