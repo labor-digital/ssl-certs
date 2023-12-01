@@ -1,6 +1,6 @@
 # SSL Certs
 
-This repository contains ssl certificates we use in multiple cases. We use them as a certificate for our [dev docker images](https://github.com/labor-digital/docker-base-images) as well as for things like the [webpack dev server in our asset-builder](https://github.com/labor-digital/asset-building).
+This repository contains ssl certificates we use in multiple cases. We use them as a certificate for our [dev docker images-v2](https://github.com/labor-digital/docker-base-images-v2) as well as for things like the [webpack dev server in our asset-builder](https://github.com/labor-digital/asset-building).
 
 **WARNING: This is a DEV utility! It should not be considered, save for production!**
 
