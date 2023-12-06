@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/labor-digital/ssl-certs/compare/v1.2.0...v1.4.0) (2023-12-06)
+
+
+### Features
+
+* add merged certificate for labor.systems ([8b36628](https://github.com/labor-digital/ssl-certs/commit/8b3662836ddd3435578e6eb09fce8f3a6ea9effd))
+* **release:** add labor.systems certificate ([3f88ee9](https://github.com/labor-digital/ssl-certs/commit/3f88ee939512240d83815d7e4bdc33ecb46eb5c3))
+
 ## [1.2.0](https://github.com/labor-digital/ssl-certs/compare/v1.1.2...v1.2.0) (2022-01-17)
 
 
