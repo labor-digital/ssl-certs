@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.4.2 (2026-06-08)
+
+
+### Bug Fixes
+
+* dummy commit for pipeline ([a0f2469](https://github.com/labor-digital/ssl-certs/commit/a0f24694023ab9dd04048e9854d18cf7437fdc60))
+
 ### 1.4.1 (2026-06-08)
 
 
