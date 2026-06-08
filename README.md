@@ -79,5 +79,3 @@ Generate the cert:
 openssl req -new -nodes -newkey rsa:4096 -keyout localhost.key -out localhost.csr -subj "/C=DE/ST=RLP/L=Mainz/O=LABOR-digital/CN=localhost"
 openssl x509 -req -sha256 -days 18250 -in localhost.csr -CA LaborRootCA.pem -CAkey LaborRootCA.key -CAcreateserial -extfile domains.ext -out localhost.crt
 ```
-
-x
