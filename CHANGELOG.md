@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.4.3 (2026-06-08)
+
+
+### Bug Fixes
+
+* dummy commit for pipeline - node 24 ([cbec8fb](https://github.com/labor-digital/ssl-certs/commit/cbec8fb1c8d2d580adc82fd67bcb410a82b61977))
+
 ### 1.4.2 (2026-06-08)
 
 
