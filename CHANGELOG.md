@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.4.4 (2026-06-08)
+
+
+### Bug Fixes
+
+* dummy commit cleanup ([b0d3765](https://github.com/labor-digital/ssl-certs/commit/b0d376588ed57901a5c904055c04d84e8c879cf2))
+
 ### 1.4.3 (2026-06-08)
 
 
