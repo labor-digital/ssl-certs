@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.4.1 (2026-06-08)
+
+
+### Bug Fixes
+
+* Update GitHub Actions workflow - upgrade actions and dependencies. ([02ac844](https://github.com/labor-digital/ssl-certs/commit/02ac8440127e45a423b4d51f07f70604cfa00132))
+
 ## [1.4.0](https://github.com/labor-digital/ssl-certs/compare/v1.2.0...v1.4.0) (2023-12-06)
 
 
